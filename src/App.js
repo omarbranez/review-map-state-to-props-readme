@@ -33,9 +33,10 @@ class App extends Component {
   }
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (state) => { 
   debugger;
   return { items: state.items }
 }
 
 export default connect(mapStateToProps)(App);
+// executed with each change to the store's state
